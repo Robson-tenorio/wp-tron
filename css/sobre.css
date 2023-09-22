@@ -1,0 +1,293 @@
+
+
+.sobre{
+width: 100%;
+	height: 100%;
+	padding: 1px 0px;
+	z-index: 10;
+	
+
+}
+
+#sobre{
+	margin: 0 0 0 0;
+	padding-top: 10% ;
+	height: 100%;
+  width: 100%;
+  display: inline-block;
+
+}
+
+.centralisar{
+	margin-left: 10px;
+	padding-top: 20%;
+}
+
+.imagem-sobre{
+	 float: right;
+  margin: 0;
+  width: 100%;
+  
+  margin-right: -13px;
+margin-left: -20px; 
+  	text-align: right;
+}
+
+
+
+.sobre-titulo{
+	margin: 5px 20px 10px 10px ;
+	fontfont-family: Titillium Web;
+	font-size: 20px;
+	line-height: 25px;
+	color: #1e2d7d;
+	font-weight: bold;
+	padding-left: 20px;
+}
+.sobre-tituloa{
+	margin: -20px 0px 0px 0px ;
+	fontfont-family: Titillium Web;
+	font-size: 25px;
+	line-height: 35px;
+	color: #1e2d7d;
+	font-weight: bold;
+	padding-left: -10px;
+}
+
+
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: px;
+  border: 1px solid #BCB5AA;
+  border-radius: 5px;
+
+}
+textarea {
+  width: 100%;
+  
+  
+  border: 1px solid #BCB5AA;
+  border-radius: 5px;
+
+}
+label{
+	margin-left: 5px ;
+	margin-top: 5px;
+	font-size: 16px;
+	color: #293572;
+	font-weight: bold;
+}
+
+input.wpcf7-form-control.wpcf7-submit {
+	fontfont-family: Titillium Web;
+    display: block;
+    margin: 10px auto;
+    width: 30%;
+    background: #5CA1B7;
+    color: #fff;
+}
+
+.mg-cf7-form .mg-cf7-form-item label {
+    display: inline-block;
+    padding-bottom: 0.3em;
+    font-size: 10px;
+    text-align: left;
+    text-transform: uppercase
+}
+
+/*.wpcf7-submit{
+	fontfont-family: Titillium Web;
+	text-align: center;
+    height: 50px;
+    padding: 1px;
+    background: #ddd;
+    border: 1px solid #c4c4c4;
+    font-size: 17px;
+    transition: .3s;	
+	background: #5CA1B7;
+	color: #fff;
+	letter-spacing:2px;
+	
+}*/
+.wpcf7-submit {
+	fontfont-family: Titillium Web;
+    background: #99CCDC;
+    color: #fff;
+    font-weight: normal;
+    font-size: 18px;
+    padding: 10px 30px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border: 1px solid #5CA1B7;
+}
+.wpcf7-submit:hover {
+	fontfont-family: Titillium Web;
+    background: #99CCDC;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 1px solid #5CA1B7;
+}
+#submit{
+    margin: 2px;
+
+}
+
+#texto-end {
+	padding-left: 18px;
+	color: #293572;
+	text-align: ;
+	font-family: Titillium Web;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+}
+#texto-end b{
+	
+	color: #293572;
+	text-align: left;
+	font-family: Titillium Web;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 800;
+	line-height: normal;
+}
+#txxt{	
+	
+	font-family: Titillium Web;
+	font-size: 18px;
+	margin-bottom: -25px;
+	font-style: normal;
+	font-weight: 800;
+	line-height: normal;
+	
+}
+
+
+
+
+@media (max-width: 1360px){
+
+	.centralisar{
+	margin-left: 10px;
+	padding-top: 10%;
+}
+
+.imagem-sobre{
+	 float: right;
+  margin: 0;
+  width: 100%;
+  
+  margin-right: -13px;
+margin-left: -20px; 
+  	text-align: right;
+}
+
+}
+
+
+
+@media (max-width: 1199px){
+
+	.centralisar{
+	margin: -10px 60px;
+	padding-top: 20px;
+}
+.imagem-sobre{
+	 float: right;
+  margin: 0;
+  width: 100%;
+  
+  margin-right: -13px;
+margin-left: -20px; 
+  	text-align: right;
+}
+
+}
+
+
+@media (max-width: 820px){
+
+	.centralisar{
+	margin: -10px 10px;
+	padding-top: 20px;
+}
+
+#sobre-titulo-home{
+
+	fontfont-family: Titillium Web;
+	font-size: 20px;
+	line-height: 25px;
+	color: #1e2d7d;
+	font-weight: bold;
+	padding-left: -10px;
+}
+.imagem-sobre{
+	 float: right;
+  margin: 0;
+  width: 100%;
+  margin-top: -20px;
+  
+ }
+.sob-titulo-home{
+	margin: 0px 0px 0px 0px ;
+	fontfont-family: Titillium Web;
+	font-size: 18px;
+	line-height: 30px;
+	color: #1e2d7d;
+	font-weight: normal;
+	padding-left: 10px;
+}
+
+}
+
+
+.sobre-titulo-home{
+	margin: -50px 0px 10px 0px ;
+	fontfont-family: Titillium Web;
+	align-items: center;
+	font-size: 26px;
+	line-height: 35px;
+	color: #1e2d7d;
+	font-weight: bold;
+	padding-left: 10px;
+}
+.sob-titulo-home{
+	margin: 0px 0px 0px 0px ;
+	fontfont-family: Titillium Web;
+	font-size: 23px;
+	line-height: 35px;
+	color: #1e2d7d;
+	font-weight: normal;
+	padding-left: 10px;
+}
+
+
+@media (max-width: 1380px){
+.sobre-titulo-home{
+	margin: px 0px 10px 10px ;
+	fontfont-family: Titillium Web;
+	font-size: 23px;
+	line-height: 35px;
+	color: #1e2d7d;
+	font-weight: bold;
+	padding: 5px 20px;
+}
+.sob-titulo-home{
+	margin: 0px 0px 0px 0px ;
+	fontfont-family: Titillium Web;
+	font-size: 18px;
+	text-align: justify;
+	line-height: 33px;
+	color: #1e2d7d;
+	font-weight: normal;
+	padding: 10px 20px;
+}
+
+}
+
+
+

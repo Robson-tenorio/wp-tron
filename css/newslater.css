@@ -1,0 +1,170 @@
+	#catalogo {
+		
+		width: 100%;
+		height: 100%;
+		background: #1e2d7d ; /* azul */
+		padding: 65px;
+		z-index: 10;
+		background-image: url('../img/bgs-news.png');
+		float:;
+	}
+	.mx-autos{
+		max-width: 1300px;
+		
+	}
+
+	#usr {    
+		background-image: url("https://i.imgur.com/eKw2dvH.png");
+		background-image: url("https://i.imgur.com/FsESOCF.png");
+		background-repeat: no-repeat;
+		background-position: right;
+		width: 100%;
+		border-style: none;
+		border-radius: 20px;
+		background-size: 1,5em;
+		padding-right: 5em;
+
+	}
+
+
+	.text01 {
+		fontfont-family: Titillium Web;
+		align-items: center;
+		font-size: 30px;
+		padding-left: 10px;
+		color: #fff;
+		
+
+	}
+
+	.text02 {    
+	fontfont-family: Titillium Web;
+		align-items: center;
+		padding-top: 15px;
+		font-size: 18px;
+		color: #fff;
+		font-weight: normal;
+
+	}
+	.inpt-new {           
+	fontfont-family: Titillium Web;
+		align-items: center;
+		color: #fff;
+	}
+
+@media (max-width: 1199px){
+	#catalogo {
+		
+		width: 100%;
+		height: 100%;
+		background: #1e2d7d ; /* azul */
+		padding: 26px;
+		z-index: 10;
+		background-image: url('../img/bgs-news.png');
+		float:;
+	}
+	.mx-autos{
+		max-width: 1300px;
+		
+	}
+
+	#usr {    
+		background-image: url("https://i.imgur.com/eKw2dvH.png");
+		background-image: url("https://i.imgur.com/FsESOCF.png");
+		background-repeat: no-repeat;
+		background-position: right;
+		width: 100%;
+		border-style: none;
+		border-radius: 20px;
+		background-size: 1,5em;
+		padding-right: 5em;
+
+	}
+
+
+	.text01 {
+		fontfont-family: Titillium Web;
+		align-items: center;
+		padding-left: 10px;
+		font-size: 30px;
+		color: #fff;
+		
+
+	}
+
+	.text02 {    
+	fontfont-family: Titillium Web;
+		align-items: center;
+		font-size: 18px;
+		color: #fff;
+
+	}
+	.inpt-new {           
+	fontfont-family: Titillium Web;
+		align-items: center;
+		color: #fff;
+	}
+
+}
+@media (max-width: 575px){
+	#catalogo {
+		
+		width: 100%;
+		height: 100%;
+		background: #1e2d7d ; /* azul */
+		padding: 5px;
+		z-index: 10;
+		background-image: url('../img/bgs-news.png');
+		float:;
+	}
+	.mx-autos{
+		max-width: 1300px;
+		
+	}
+
+	#usr {    
+		background-image: url("https://i.imgur.com/eKw2dvH.png");
+		background-image: url("https://i.imgur.com/FsESOCF.png");
+		background-repeat: no-repeat;
+		background-position: right;
+		width: 100%;
+		border-style: none;
+		border-radius: 20px;
+		background-size: 1,5em;
+		padding-right: 5em;
+
+	}
+
+
+	.text01 {
+		fontfont-family: Titillium Web;
+		font-size: 15px;
+		align-items: center;
+		padding-left: 10px;
+		font-size: 30px;
+		color: #fff;
+		
+
+	}
+
+	.text02 {    
+	fontfont-family: Titillium Web;
+		align-items: center;
+		font-size: 14px;
+		padding-top: 0px;
+		color: #fff;
+
+	}
+	.inpt-new {           
+	fontfont-family: Titillium Web;
+		align-items: center;
+		color: #fff;
+		font-size: 14px;
+	}
+
+}
+
+
+
+
+

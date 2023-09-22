@@ -1,0 +1,432 @@
+body{
+  margin: 0;
+}
+
+
+.menu-area-azul{
+	width: 100%;	
+	background: #E5F2F6 ; /* azul */
+	padding-top: 15px;
+	padding-bottom: 17px;
+	z-index: 10;
+	fontfont-family: Titillium Web;
+	font-size: 30px;
+	font-weight: bold;
+	line-height: px;
+	color: #1e2d7d;
+	text-align: left;
+}
+
+#a-tron{
+  position: static;
+	margin: 0 0 0 0;
+	padding-top: 50px ;
+	height: 100%;
+  width: 100%;
+  display: inline-block;
+
+}
+#img-padd{
+  float: left;
+  margin: 100;
+  width: 651px;
+  height: 426px;
+  margin-right: -8px;
+margin-left: -8px; 
+
+}
+.sobre-titulos{
+  margin: 5px 10px 10px 0px ;
+  fontfont-family: Titillium Web;
+  font-size: 25px;
+  line-height: 35px;
+  color: #1e2d7d;
+  font-weight: bold;
+  padding-left: 0px;
+
+  
+
+}
+
+.sobre-titulo-sb{
+  margin: 10px 10px 10px 0px ;
+  fontfont-family: Titillium Web;
+  font-weight: normal;
+  text-align: justify;
+  font-size: 18px;
+  line-height: 30px;
+  color: #26327b; 
+
+}
+
+#video{
+  margin: 0 0 0 0;
+  padding-top: 80px ;
+  padding-bottom: 0px;
+  height: 100%;
+  width: 100%;
+  display: inline-block;
+
+}
+
+#missao{
+  margin: 0 0 0 0;
+  padding-top: 0px ;
+  height: 100%;
+  width: 100%;
+  display: inline-block;
+
+}
+#video-full{
+  width: 100%;
+}
+
+
+
+#padd{
+	padding: 10px;
+}
+
+
+
+
+
+#bg1{
+   background-color: #1e2d7d;
+   padding: 50px;
+   no-repeat: none;
+   text-align: left;
+   }
+.texto-1{
+	text-align: ;
+	font-size: 30px;
+	color: #fff;
+	font-weight: bold;	
+}
+@media (max-width: 880px){
+.texto-1{
+  text-align: ;
+  font-size: 23px;
+  color: #fff;
+  font-weight: bold;  
+}
+
+}
+
+
+/* accordion */
+
+#accordion{
+  margin: 50px auto;
+  width: 100%;
+  padding-top: 0px;
+
+
+}
+#accordion li{
+  fontfont-family: Titillium Web;
+  list-style: none;
+  margin-bottom: 10px;
+font-size: 18px;
+
+font-weight: normal;
+line-height: 30px;
+  padding: 10px;
+
+  color:#1e2d7d ;
+
+
+}
+
+
+#accordion li label{
+  fontfont-family: Titillium Web;
+  padding-bottom: 20px 20px;
+padding-left: px;
+  border-bottom: 1px solid #5CA1B7;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  color: #1e2d7d;
+  
+
+  
+  }
+  .undr{
+    position: absolute;
+    float: left;
+    display: block;
+  border-bottom: 3px solid #1e2d7d;;
+  width: 250px;
+  padding-left: -130px;
+  margin-bottom: 0;
+  padding-bottom: 3px;
+  line-height: 1.5;
+  
+  }
+
+
+
+
+#accordion  label span{
+  fontfont-family: Titillium Web;
+  transform: rotate(90deg);
+  font-size: 22px;
+  color: #5CA1B7;
+
+}
+
+#accordion label + input[type="radio"]{
+  display: none;
+}
+
+#accordion .contente{
+  padding: 0 20px;
+  line-height: 26px; 
+  margin-left: 20% ;
+  margin-right: 20%;
+  align-items: center;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.8s;
+}
+
+  #accordion label + input[type="radio"]:checked + .contente{
+    max-height: 400px;
+
+
+
+  } 
+@media (max-width: 556px){
+  #accordion .contente{
+  padding: 0 20px;
+  line-height: 26px; 
+  margin-left: 5% ;
+  margin-right: 5%;
+  align-items: center;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.8s;
+}
+}
+
+#espaco{
+  padding: 10px 10px 10px 10px;
+}
+
+#slides ul li{
+  width: 13%;
+display: inline-block;
+margin-left: 5px;
+align-items: center;
+}
+#auto{
+  text-align: right;
+  align-items: right;
+  color: #fff;
+  font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.slide{
+  margin-bottom: 20px;
+  position: relative;
+
+}
+
+.slider-car{
+  height: 100%;
+  padding: -5px;
+  margin: 40px 10px 40px 10px;
+  border-radius: 50px;
+  
+  
+}
+.slider-card img{
+  width: 100% auto;
+  margin-top: -2px;
+  border-radius: 50px;
+  
+
+}
+
+.owl-nav .owl-next{
+  position: absolute;
+  top: calc(50% - 25px);
+  right: 0;
+  opacity: 1;
+
+  font-size: 30px !importante; 
+  z-index: 1;
+}
+.owl-nav .owl-prev{
+  position: absolute;
+  top: calc(50% - 25px);
+  left: 0;
+  opacity: 0;
+  font-size: 30px !importante;
+
+  z-index: 1;
+}
+
+#botao_anteriors, #botao_proximos{
+
+  align-items: center;
+}
+
+#botao_anteriors{
+  align-items: center;
+  font-size: 30px;
+  border: 0;
+  color: #1e2d7d;
+  background-color: white;
+  z-index: 10;
+}
+
+#botao_proximos{
+  right: -25px;
+  font-size: 30px;
+  border: 0;
+  color: #1e2d7d;
+  background-color: white;
+  z-index: 10;
+}
+.navegac{
+  text-align: center;
+
+}
+
+
+.fa-chevron-up.rotate {
+  transform: rotate(180deg);
+  transition: transform 0.3s ease; /* Adicione uma transição suave para a animação */
+}
+
+
+/* Estilo da janela popup */
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 999;
+    transition: opacity 1.5s ease-in-out, transform 0.8s ease-in-out;
+    
+    
+}
+
+
+.popup-content {
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    
+}
+.popups {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 999;
+    transition: opacity 1.5s ease-in-out, transform 0.8s ease-in-out;
+    
+    
+}
+#popup-contents {
+    position: absolute;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    gap: 20px;
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* Estilo da imagem da equipe */
+.team-image {
+    cursor: pointer;
+}
+/* Exibir a janela popup quando está aberta */
+.popup.opened {
+    display: block;
+    opacity: 1;
+}
+.tmg{
+  justify-content: space-between;
+  width: 120px;
+  margin: 0px;
+  padding: 0px;
+  
+
+}
+
+.ajustetexto ul{
+  text-align: left;
+  margin: 20px;
+}
+
+.ajustetexto li{
+  text-align: left;
+  list-style: none;  
+  
+}
+.textoname{
+  fontfont-family: Titillium Web;
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 15px;
+  color: #1e2d7d;
+}
+
+.textoemail{
+  fontfont-family: Titillium Web;
+  font-size: 15px;
+  font-weight: normal;
+  color: #1e2d7d;
+}
+
+.textofone{
+  fontfont-family: Titillium Web;
+  font-size: 15px;
+  font-weight: normal;
+  color: #1e2d7d;
+}

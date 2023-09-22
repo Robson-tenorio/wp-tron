@@ -1,0 +1,303 @@
+.slider{
+	margin-bottom: 20px;
+	position: relative;
+
+}
+.slider .owl-item.active.center .slider-card{
+	transform:  scale(1.01);
+	opacity: 1;
+	background: #1e2d7d;
+
+	color: #fff;
+
+}
+#fas{
+font-size: 40px;
+}
+#indicators{
+font-size: 40px;
+}
+.slider-card{
+	height: 100%;
+	background-color: #1e2d7d;
+	padding: -5px;
+	margin: 40px 10px 40px 10px;
+	border-radius: 25px;
+	box-shadow: 0 25px 45px -30px;
+	transform: scale(0.9);
+	opacity: 0.5;
+	transition: all 0,3s;
+	color: #fff;
+}
+
+.slider-card img{
+	width: 100% auto;
+	margin-top: -2px;
+	border-radius: 20px 20px 0px 0px;
+	border: -0px solid #fff;
+
+}
+
+.owl-nav .owl-next{
+	position: absolute;
+	top: calc(50% - 25px);
+	right: 0;
+	opacity: 1;
+
+	font-size: 30px !importante; 
+	z-index: 1;
+}
+.owl-nav .owl-prev{
+	position: absolute;
+	top: calc(50% - 25px);
+	left: 0;
+	opacity: 1;
+	font-size: 30px !importante;
+
+	z-index: 1;
+}
+
+#botao_anterior, #botao_proximo{
+
+	position: absolute;
+	top: 290px;
+}
+
+#botao_anterior{
+	left: -30px;
+	font-size: 30px;
+	border: 0;
+	color: #1e2d7d;
+	background-color: white;
+	z-index: 10;
+}
+
+#botao_proximo{
+	right: -32px;
+	font-size: 30px;
+	border: 0;
+	color: #1e2d7d;
+	background-color: white;
+	z-index: 10;
+}
+.text-center{
+	 fontfont-family: Titillium Web;
+  font-size: 18px;
+  padding: 0px 10px;
+  line-height: 25px;
+  color: #ffffff;
+  font-weight: normal;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.text-center-p{
+  fontfont-family: Titillium Web;
+  font-size: 15px;
+  color: #fff;
+  padding: 10px 10px;
+}
+
+@media (max-width: 820px){
+.text-center{
+	 fontfont-family: Titillium Web;
+  font-size: 15px;
+  padding: 0px 10px;
+  line-height: 25px;
+  color: #ffffff;
+  font-weight: normal;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.text-center-p{
+  fontfont-family: Titillium Web;
+  font-size: 14px;
+  color: #fff;
+  padding: 10px 10px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.text-cente{
+	padding: 0px 20px;
+	color: #fff;
+	text-align: center;
+fontfont-family: Titillium Web;
+font-size: 18px;
+font-style: normal;
+line-height: 20px;
+font-weight: 40;
+}
+.text-cente-p{
+
+	padding: 0px 40px 30px 40px;
+	color: #fff;
+	text-align: center;
+
+font-size: 14px;
+font-style: normal;
+line-height: 18px;
+font-weight: 40;
+}
+
+@media (max-width: 800px){
+
+	#botao_anterior, #botao_proximo{
+
+	position: absolute;
+	top: 180px;
+}
+@media (max-width: 660px){
+
+	#botao_anterior, #botao_proximo{
+
+	position: absolute;
+	top: 150px;
+}
+
+#botao_anterior{
+	left: -25px;
+	font-size: 30px;
+	border: 0;
+	color: #1e2d7d;
+	background-color: white;
+	z-index: 10;
+}
+
+#botao_proximo{
+	right: -25px;
+	font-size: 30px;
+	border: 0;
+	color: #1e2d7d;
+	background-color: white;
+	z-index: 10;
+}
+
+.apagar{
+	
+	visibility: visible;
+	}
+.slider-card{
+	height: 100%;
+	background-color: #1e2d7d;
+	padding: -5px;
+	margin: 10px 10px 10px 10px;
+	border-radius: 25px;
+	box-shadow: 0 25px 45px -30px;
+	transform: scale(0.9);
+	opacity: 0.5;
+	transition: all 0,3s;
+	color: #fff;
+}
+
+.text-cente{
+	padding: 0px 10px;
+	color: #fff;
+	text-align: center;
+fontfont-family: Titillium Web;
+font-size: 14px;
+font-style: normal;
+line-height: 20px;
+font-weight: 40;
+}
+.text-cente-p{
+
+	padding: 0px 40px 30px 40px;
+	color: #fff;
+	text-align: center;
+
+font-size: 12px;
+font-style: normal;
+line-height: 18px;
+font-weight: 40;
+}
+
+}
+
+
+
+
+
+@media (max-width: 649px){
+	
+.apagar{
+	visibility: hidden;
+	display: none;
+	}
+}
+
+
+
+@media (max-width 660px){
+
+.text-cente{
+	padding: 0px 20px;
+	color: #fff;
+	text-align: center;
+fontfont-family: Titillium Web;
+font-size: 14px;
+font-style: normal;
+line-height: 20px;
+font-weight: 40;
+}
+.text-cente-p{
+
+	padding: 0px 40px 30px 40px;
+	color: #fff;
+	text-align: center;
+
+font-size: 12px;
+font-style: normal;
+line-height: 18px;
+font-weight: 40;
+}
+
+#botao_anterior, #botao_proximo{
+
+	position: absolute;
+	top: 520px;
+}
+}
+@media (max-width 760px){
+
+.text-cente{
+	padding: 0px 20px;
+	color: #fff;
+	text-align: center;
+fontfont-family: Titillium Web;
+font-size: 15px;
+font-style: normal;
+line-height: 20px;
+font-weight: 40;
+}
+.text-cente-p{
+
+	padding: 0px 40px 30px 40px;
+	color: #fff;
+	text-align: center;
+
+font-size: 12px;
+font-style: normal;
+line-height: 18px;
+font-weight: 40;
+}
+
+#botao_anterior, #botao_proximo{
+
+	position: absolute;
+	top: 520px;
+}
+}
